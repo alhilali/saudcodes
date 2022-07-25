@@ -1,0 +1,7 @@
+{
+  "name": "saudcodes",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

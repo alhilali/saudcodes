@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "saudcodes",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
