@@ -1,0 +1,165 @@
+[
+  {
+    "pathName": "COVID19",
+    "name": "COVID 19 - كوڤيد ١٩",
+    "year": "2020",
+    "relevantAreas": [
+      "WEB DEVELOPMENT",
+      "IONIC"
+    ],
+    "description": "A simple webapp that displayes statistics of COVID-19",
+    "image": "assets/img/projects/covid19/logo.jpeg",
+    "status": "AVAILABLE",
+    "fullDescription": "I found a great open source project (link to Github project is noted below) that provides APIs to get the latests numbser of COVID 19 epidemic. It was a very enlighting small project, I got to use some graph libraries with an interactive map of the world.",
+    "link": "https://covid19.saud.tech",
+    "linkTitle": "Website",
+    "screenshots": [
+      {
+        "url": "assets/img/projects/covid19/1.jpeg"
+      },
+      {
+        "url": "assets/img/projects/covid19/2.jpeg"
+      },
+      {
+        "url": "assets/img/projects/covid19/3.jpeg"
+      }
+    ],
+    "github": "https://github.com/disease-sh/API"
+  },
+  {
+    "pathName": "LINKers",
+    "name": "LINKers",
+    "year": "2017",
+    "relevantAreas": ["MOBILE DEVELOPMENT", "IONIC"],
+    "description": "A mobile app to be used by the LINK team at JMU. It provides calender, chat, file management capabilities.",
+    "image": "https://image.ibb.co/eUmW0m/splash.png",
+    "status": "AVAILABLE",
+    "appStore": "https://itunes.apple.com/us/app/linkers/id1320037397?mt=8",
+    "googlePlay": "https://play.google.com/store/apps/details?id=edu.jmu.linker",
+    "fullDescription": "Never miss out on an event for the globally-minded students of James Madison University again! Download the LINKer JMU app now to:<br> <br> - View and receive notifications of events hosted by the Center for Global Engagement <br><br>- Create your own events with friends, such as student organization interest meetings, executive board meetings, study sessions, etc.<br><br>- Add all events to your personal calendar(s) on all devices<br><br>- Share quick files with your friends via linked dropbox folders (event posters, to-do lists, meeting minutes, etc.)<br><br>- Chat with your friends using direct or group messaging functions<br><br>- Use polls to collect other group members' opinions on any important topics<br><br>- Add friends to your favorite contact list within the app for convenient and better communication<br><br>This app is designed to simplify lives of globally-minded students who are involved with multiple clubs, groups, and activities at JMU. By having all important events saved in one place, students will be confident that they do not forget any meetings and miss out on unique events. Features such as event notifications and saving contact information within the app allow students to have their needed tools within the same app without having to multitask and switching back and forth between multiple programs. At the same time, LINKer JMU app allows students to export all of these details to their desired destinations (save events to calendars and save contacts to their phone's default apps), for flexible user experience.",
+    "screenshots": [
+      {
+        "url": "assets/img/projects/linkers/1.jpg"
+      },
+      {
+        "url": "assets/img/projects/linkers/2.jpg"
+      },
+      {
+        "url": "assets/img/projects/linkers/3.jpg"
+      },
+      {
+        "url": "assets/img/projects/linkers/4.jpg"
+      }
+    ]
+  },
+  {
+    "pathName": "FoodeeChatbot",
+    "name": "Foodee Chatbot",
+    "year": "2018",
+    "relevantAreas": ["ARTIFICIAL INTELLIGENCE", "MOBILE DEVELOPMENT"],
+    "description": "A very simple Chatbot trying to make the way you order food more interactive and as easy as possible.",
+    "image": "assets/img/projects/foodeeChatbot.png",
+    "status": "AVAILABLE",
+    "link": "https://chatbot.saud.tech",
+    "linkTitle": "Demo"
+  },
+  {
+    "pathName": "MOTOR-Study",
+    "name": "MOTOR Study Survey",
+    "year": "2018",
+    "relevantAreas": ["WEB DEVELOPMENT"],
+    "description": "The MOTOR Study is a prospective, international, observational cohort study aiming to collect an adequate dataset from 100 ICUs in Asian countries.",
+    "fullDescription": "- Website built using Angular 5<br> - Consists of a large form filled by hospitals across Asia.<br>- Only authorized users can participate<br>- Ability to export data to further analyze it",
+    "image": "assets/img/projects/MOTOR.png",
+    "status": "AVAILABLE",
+    "link": "https://motorstudy.net/",
+    "linkTitle": "Live Website"
+  },
+  {
+    "pathName": "THAMN",
+    "name": "THAMN - ضامن",
+    "year": "2018",
+    "relevantAreas": ["MOBILE DEVELOPMENT", "IONIC"],
+    "description": "A mobile app, built as part of Hajj Hackathon held in 2018, it is meant to connect health insurance providers with agencies outside of Saudi Arabia.",
+    "image": "assets/img/projects/THAMN/THAMN-BG.png",
+    "status": "IN-PROGRESS",
+    "fullDescription": "With vision 2030, the Kingdom aims to facilitate the user's experience and provide effective health services. Our inspiration is that we don’t have international platforms that support all languages worldwide and enable the pilgrims to reach all insurance companies. Also, to address a really important challenge which is the unavailability of medical files belonging to international pilgrims. <br><br> <img src=\"assets/img/projects/THAMN/THAMN-SS.png\" alt=\"THAMN Info\" style=\"max-width:100%;\">",
+    "github": "https://github.com/alhilali/THAMN"
+  },
+  {
+    "pathName": "Felmal3ab - فالملعب",
+    "name": "Felmal3ab",
+    "year": "2017",
+    "relevantAreas": ["MOBILE DEVELOPMENT", "IONIC"],
+    "description": "A mobile app intended to be a central hub for Football players. It allows for players to search for teams they want to join, and for teams who are looking for opponent to compete with.",
+    "image": "https://image.ibb.co/mKB3D6/splash_copy.png",
+    "status": "IN-PROGRESS",
+    "screenshots": [
+      {
+        "title": "Login Screen",
+        "url": "assets/img/projects/felmal3ab/1.png"
+      },
+      {
+        "title": "Feed",
+        "url": "assets/img/projects/felmal3ab/2.png"
+      },
+      {
+        "title": "New Post",
+        "url": "assets/img/projects/felmal3ab/3.png"
+      },
+      {
+        "title": "Player Screen",
+        "url": "assets/img/projects/felmal3ab/4.png"
+      },
+      {
+        "title": "Request Game",
+        "url": "assets/img/projects/felmal3ab/5.png"
+      },
+      {
+        "title": "My Teams",
+        "url": "assets/img/projects/felmal3ab/6.png"
+      }
+    ]
+  },
+  {
+    "pathName": "TVShowsTracker",
+    "name": "TV Shows Tracker",
+    "year": "2016",
+    "relevantAreas": ["WEB DEVELOPMENT", "REACTJS"],
+    "description": "A small project I built using ReactJS. As the name suggests, it allows TV Shows followers to track episodes they have watched, and lets them know when new episodes are airing.",
+    "image": "https://image.ibb.co/iWxbY6/Screen_Shot_2017_10_18_at_12_44_38_AM.png",
+    "status": "DONE",
+    "screenshots": [
+      {
+        "url": "assets/img/projects/tvshows/1.png"
+      },
+      {
+        "url": "assets/img/projects/tvshows/2.png"
+      },
+      {
+        "url": "assets/img/projects/tvshows/3.png"
+      }
+    ]
+  },
+  {
+    "pathName": "WhatsappUtil",
+    "name": "No Save Whatsapp - من دون حفظ واتساب",
+    "year": "2018",
+    "relevantAreas": ["API"],
+    "description": "A very simple repo to give you the ability to contact anyone through Whatsapp without adding them to your contacts.",
+    "image": "assets/img/projects/whatsapp-util/banner.png",
+    "status": "AVAILABLE",
+    "link": "https://whatsapp.saud.tech",
+    "linkTitle": "Whatsapp Utils",
+    "github": "https://github.com/alhilali/whatsapp-util"
+  },
+  {
+    "pathName": "AskMe",
+    "name": "Ask.me",
+    "year": "2016",
+    "relevantAreas": ["MOBILE DEVELOPMENT", "HTML", "CSS"],
+    "description": "A class project I got to work with a team, that was my first ever take on web development. A website used to post questions for people to answer.",
+    "image": "https://image.ibb.co/hBMg0m/Feed.png",
+    "status": "DONE"
+  }
+]

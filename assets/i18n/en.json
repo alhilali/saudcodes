@@ -1,0 +1,112 @@
+{
+  "personal": {
+    "name": "Saud Alhelali",
+    "welcome": "Hi! I'm a ",
+    "hook": "I'm passionate about creating products that help bring people together.",
+    "explore": "Please take a look through some of my projects. Don't hesitate to contact me.",
+    "position": "Software Developer"
+  },
+  "about": {
+    "earned": "I earned a bachelor's degree in",
+    "when-not": "When I’m not",
+    "i-do": "I will most likely be playing/watching Football, or trying to learn a new technology. I also love to travel and to explore new cultures.",
+    "objective": "My objectives are to take a challenging role in the field of",
+    "objective2": "and implement the expertise and experience gained in this field to develop complex project with efficiency and quality."
+  },
+  "my_work": {
+    "body": "Here you will find more information about some of my projects. Please don't hesitate to contact me if you would like to know more about anything you see here."
+  },
+  "common": {
+    "language": "Language",
+    "email": "Email",
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "my_work": "My Work",
+    "blog": "Blog",
+    "admin": "Admin",
+    "logout": "Logout",
+    "new-blog": "New Blog",
+    "skills": "Skills",
+    "personal-projects": "Personal Projects",
+    "contact-me": "Get in touch",
+    "made-by": "Handmade with",
+    "send": "Send",
+    "leave-comment": "Leave a comment",
+    "from": "from",
+    "and": "and",
+    "DONE": "Done",
+    "AVAILABLE": "Available",
+    "IN-PROGRESS": "Ongoing",
+    "soon": "Coming soon!",
+    "more": "More",
+    "demo": "Demo",
+    "by": "By"
+  },
+  "placeholders": {
+    "your-name": "Name",
+    "your-comment": "Comment",
+    "your-email": "Email",
+    "your-inquiry": "Inquiry"
+  },
+  "locations": {
+    "riyadh": "Riyadh, Saudi Arabia",
+    "thumamah": "Ath Thumamah",
+    "magic": "Where the magic happens!",
+    "office": "My office"
+  },
+  "interests": {
+    "CS": "Computer Science",
+    "coding": "Coding 👨🏻‍💻",
+    "programming": "Computer programming"
+  },
+  "skills": {
+    "programming": "Programming",
+    "communication": "Communication",
+    "planning": "Planning",
+    "tools": "Tools",
+    "body": {
+      "programming": {
+        "1": "Languages I use all the time:",
+        "2": "I'm also comfortable using these frameworks:"
+      },
+      "communication": {
+        "1": "I attained a great experience working as a team from my past experience as a ",
+        "2": "I have the ability to work independently and within groups."
+      },
+      "planning": {
+        "1": "I love to work with clients to transform ideas to well-thought-out products. I believe it’s important to stay ",
+        "2": "organized",
+        "3": " and to respect ",
+        "4": "timelines"
+      },
+      "tools": {
+        "1": "I'm fairly comfortable using development tools like ",
+        "2": "In addition to some sketching tools like "
+      }
+    }
+  },
+  "social": {
+    "email": "Email",
+    "github": "Github",
+    "linkedin": "LinkedIn",
+    "twitter": "Twitter",
+    "instagram": "Instagram",
+    "cv": "CV"
+  },
+  "relevant_areas": {
+    "java": "Java",
+    "python": "Python",
+    "javascript": "JavaScript",
+    "swift": "Swift",
+    "angular": "Angular",
+    "IONIC": "Ionic",
+    "nodejs": "NodeJS",
+    "REACTJS": "ReactJS",
+    "HTML": "HTML",
+    "CSS": "CSS",
+    "MOBILE DEVELOPMENT": "Mobile Development",
+    "WEB DEVELOPMENT": "Web Development",
+    "ARTIFICIAL INTELLIGENCE": "Artificial intelligence"
+  }
+}
