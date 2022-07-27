@@ -5,22 +5,26 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <div class="image-container">
-    <img
-      class="image"
-      src="./assets/img/saud.png"
-      alt="Saud Alhelali's Image"
-    />
-  </div>
-
-  <div class="about-me-container">
-    <div class="intro">
-      <p class="paragraph">
-        Hello, I'm <strong>Saud Alhelali</strong>, <br />
-        Full Stack Developer from Riyadh, Saudi Arabia.
-      </p>
-    </div>
-  </div>
+  <ion-row class="hero-container">
+    <ion-col class="image-container" push="1" size="11" size-md="5">
+      <img
+        class="image"
+        src="./assets/img/saud.png"
+        alt="Saud Alhelali's Image"
+      />
+    </ion-col>
+    <ion-col class="about-me-container" push="1" size="11" size-md="5">
+      <div class="intro">
+        <p class="paragraph">
+          Hello, I'm <strong>Saud Alhelali</strong>, <br />
+          Full Stack Developer from Riyadh, Saudi Arabia.
+        </p>
+      </div>
+    </ion-col>
+  </ion-row>
+  <ion-button class="ion-padding" (click)="onClick()" expand="block">
+    <ion-icon slot="end" name="arrow-forward-outline"></ion-icon> مشاريعي
+  </ion-button>
 
   <div class="soc-box">
     <div class="follow-label">Follow Me</div>
