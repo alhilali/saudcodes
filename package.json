@@ -11,7 +11,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build:prod": "ionic build --prod --baseHref 'https://saud.codes'",
-    "deploy:prod": "npx angular-cli-ghpages --dir www"
+    "deploy:prod": "npx angular-cli-ghpages --dir www --cname=saud.codes"
   },
   "private": true,
   "dependencies": {
