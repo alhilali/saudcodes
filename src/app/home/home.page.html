@@ -17,7 +17,8 @@
     <div class="intro">
       <p class="paragraph">
         Hello, I'm <strong>Saud Alhelali</strong>, <br />
-        Full Stack Developer from Riyadh, Saudi Arabia.
+        <span *ngIf="title" [@fadeIn]>{{ title }}</span> <br />
+        from Riyadh, Saudi Arabia.
       </p>
     </div>
   </div>
