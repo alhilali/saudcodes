@@ -2,14 +2,14 @@
   "personal": {
     "name": "سعود الهلالي",
     "welcome": "اهلين! انا ",
-    "hook": "مهتم في صنع المنتجات التي تساعد في جعل الناس اقرب من أي وقت مضى.",
-    "explore": "خذ لك جولة على بعض من مشاريعي، ولا تتردد في التواصل معي.",
-    "position": "مطور برمجيات"
+    "hook": "ومهتم في استخدامها لتحسين جودة الحياة، واحب كل شيء له علاقه في الكمبيوتر.",
+    "explore": "خذ لك نظرة على بعض من مشاريعي، ولا تتردد في التواصل معي.",
+    "title": "شغوف في التقنية، "
   },
   "about": {
     "earned": "تحصلت على شهادة بكالوريس",
-    "when-not": "اذا ماكنت",
-    "i-do": "بكون غالبًا العب/أشوف مباراة كرة القدم او اني اكون جالس اتعلم تقنية جديدة، من اهتماماتي السفر واكتشاف الثقافات المختلفة.",
+    "when_not": "اذا ماكنت",
+    "i_do": "بكون غالبًا العب/أشوف مباراة كرة القدم او اني اكون جالس اتعلم تقنية جديدة، من اهتماماتي السفر واكتشاف الثقافات المختلفة.",
     "objective": "هدفي اني اتمكن من حصول على منصب يسمح لي صنع التغيير في مجال ",
     "objective2": "واني استخدم مهاراتي لإنتاج منتجات بأعلى المستويات، تخدم الناس وتكون مطبقة بأفضل الأساليب المتبعة."
   },
@@ -22,32 +22,34 @@
     "home": "الرئيسية",
     "about": "من انا",
     "projects": "مشاريع",
+    "my_projects": "بعض أعمالي",
     "my_work": "أعمالي",
     "blog": "المدوّنة",
     "admin": "لوحة التحكم",
     "logout": "تسجيل الخروج",
-    "new-blog": "مدونة جديدة",
+    "new_blog": "مدونة جديدة",
     "skills": "مهاراتي",
-    "personal-projects": "مشاريعي الخاصة",
-    "contact-me": "تواصل معي",
-    "made-by": "صنع ايديّا",
+    "personal_projects": "مشاريعي الخاصة",
+    "contact_me": "تواصل معي",
+    "made_by": "صنع ايديّا",
     "send": "أرسل",
-    "leave-comment": "اترك تعليقك",
+    "leave_comment": "اترك تعليقك",
     "from": "من",
     "and": "و",
     "DONE": "كامل",
     "AVAILABLE": "متوفر",
-    "IN-PROGRESS": "طور التنفيذ",
+    "IN_PROGRESS": "طور التنفيذ",
     "soon": "قريبًا",
     "more": "المزيد",
     "demo": "تجربه",
-    "by": "بإستخدام"
+    "by": "بإستخدام",
+    "follow_me": "تابعني"
   },
   "placeholders": {
-    "your-name": "الاسم",
-    "your-comment": "التعليق",
-    "your-email": "الايميل",
-    "your-inquiry": "الرسالة"
+    "your_name": "الاسم",
+    "your_comment": "التعليق",
+    "your_email": "الايميل",
+    "your_inquiry": "الرسالة"
   },
   "locations": {
     "riyadh": "الرياض، السعودية",
@@ -100,11 +102,14 @@
     "javascript": "JavaScript",
     "swift": "Swift",
     "angular": "Angular",
-    "ionic": "Ionic",
+    "IONIC": "Ionic",
     "nodejs": "NodeJS",
-    "react": "ReactJS",
+    "REACTJS": "ReactJS",
+    "HTML": "HTML",
+    "CSS": "CSS",
     "MOBILE DEVELOPMENT": "Mobile Development",
     "WEB DEVELOPMENT": "Web Development",
-    "ARTIFICIAL INTELLIGENCE": "Artificial intelligence"
+    "ARTIFICIAL INTELLIGENCE": "Artificial intelligence",
+    "API": "API"
   }
 }

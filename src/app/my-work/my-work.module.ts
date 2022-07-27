@@ -1,13 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 
-import { HomePage } from './home.page';
-import { HomePageRoutingModule } from './home-routing.module';
+import { IonicModule } from '@ionic/angular';
+
+import { MyWorkPageRoutingModule } from './my-work-routing.module';
+
+import { MyWorkPage } from './my-work.page';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
-import { HttpClient } from '@angular/common/http';
 import createTranslateLoader from '../app.module';
+import { HttpClient } from '@angular/common/http';
 
 @NgModule({
   imports: [
@@ -21,8 +23,8 @@ import createTranslateLoader from '../app.module';
         deps: [HttpClient],
       },
     }),
-    HomePageRoutingModule,
+    MyWorkPageRoutingModule,
   ],
-  declarations: [HomePage],
+  declarations: [MyWorkPage],
 })
-export class HomePageModule {}
+export class MyWorkPageModule {}

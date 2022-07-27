@@ -1,33 +1,57 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title> Saud Alhelali </ion-title>
+    <ion-buttons slot="secondary">
+      <ion-button (click)="changeTheme()">
+        <ion-icon slot="icon-only" name="contrast"></ion-icon>
+      </ion-button>
+      <ion-button (click)="changeLanguage()">
+        <ion-icon slot="icon-only" name="globe"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title> </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-row class="hero-container">
-    <ion-col class="image-container" push="1" size="11" size-md="5">
+  <ion-row class="hero-container ion-padding">
+    <ion-col class="image-container" size="12" size-md="6">
       <img
         class="image"
         src="./assets/img/saud.png"
         alt="Saud Alhelali's Image"
       />
     </ion-col>
-    <ion-col class="about-me-container" push="1" size="11" size-md="5">
+    <ion-col class="about-me-container" size="12" size-md="6">
       <div class="intro">
         <p class="paragraph">
-          Hello, I'm <strong>Saud Alhelali</strong>, <br />
-          Full Stack Developer from Riyadh, Saudi Arabia.
+          {{ 'personal.welcome' | translate }}
+          <span class="name strong">{{ 'personal.name' | translate }}</span>,
+          <br />
+          <span class="strong">{{ 'personal.title' | translate }}</span>{{
+          'personal.hook' | translate }}
         </p>
+        <p class="paragraph">{{ 'personal.explore' | translate }}</p>
       </div>
     </ion-col>
   </ion-row>
-  <ion-button class="ion-padding" (click)="onClick()" expand="block">
-    <ion-icon slot="end" name="arrow-forward-outline"></ion-icon> مشاريعي
-  </ion-button>
+  <ion-row>
+    <ion-col size="12" size-md="4">
+      <ion-button class="ion-padding" expand="block" routerLink="my-work">
+        <ion-icon slot="end" name="arrow-forward-outline"></ion-icon> {{
+        'common.my_projects' | translate }}
+      </ion-button>
+      <ion-button
+        class="ion-padding"
+        href="mailto:saudalhilali@gmail.com?subject=Hello Saud!"
+        expand="block"
+        fill="outline"
+      >
+        {{ 'common.contact_me' | translate }}
+      </ion-button>
+    </ion-col>
+  </ion-row>
 
   <div class="soc-box">
-    <div class="follow-label">Follow Me</div>
     <div class="soc">
       <a target="_blank" href="https://www.linkedin.com/in/alhelali/">
         <ion-icon name="logo-linkedin"></ion-icon>

@@ -1,0 +1,23 @@
+.project-card {
+  .image {
+    border-radius: 10px;
+    background-size: cover;
+    height: 200px;
+    background-position: center;
+    margin-bottom: 10px;
+  }
+
+  .sc-image {
+    border-radius: 10px;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+
+  .content {
+    margin-bottom: 10px;
+  }
+}

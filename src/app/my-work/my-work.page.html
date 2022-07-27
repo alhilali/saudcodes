@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="secondary">
+      <ion-button routerLink="" fill="clear">
+        <ion-icon slot="icon-only" name="home"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>{{ 'common.my_projects' | translate }} </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content dir="ltr">
+  <ion-row>
+    <ion-col size="12" size-md="6" *ngFor="let project of projects">
+      <ion-card class="project-card" mode="ios" button>
+        <ion-card-header>
+          <div
+            class="image"
+            [style.background-image]="'url(' + project.image + ')'"
+          ></div>
+          <ion-card-subtitle>{{ project.description }}</ion-card-subtitle>
+          <ion-card-title>{{ project.name }}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <div class="content" [innerHtml]="project.fullDescription"></div>
+          <ion-chip
+            *ngFor="let area of project.relevantAreas"
+            color="primary"
+            mode="ios"
+            outline="true"
+          >
+            <ion-label>{{ 'relevant_areas.' + area | translate }}</ion-label>
+          </ion-chip>
+          <ion-slides
+            class="screenshots"
+            *ngIf="project.screenshots"
+            mode="ios"
+            pager="ios"
+          >
+            <ion-slide class="slide" *ngFor="let sc of project.screenshots">
+              <div
+                class="sc-image"
+                [style.background-image]="'url(' + sc.url + ')'"
+              ></div>
+            </ion-slide>
+          </ion-slides>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-content>

@@ -1,15 +1,15 @@
 {
   "personal": {
     "name": "Saud Alhelali",
-    "welcome": "Hi! I'm a ",
+    "welcome": "Hi! I'm ",
     "hook": "I'm passionate about creating products that help bring people together.",
     "explore": "Please take a look through some of my projects. Don't hesitate to contact me.",
-    "position": "Software Developer"
+    "title": "Technology Enthusiasts, "
   },
   "about": {
     "earned": "I earned a bachelor's degree in",
-    "when-not": "When I’m not",
-    "i-do": "I will most likely be playing/watching Football, or trying to learn a new technology. I also love to travel and to explore new cultures.",
+    "when_not": "When I’m not",
+    "i_do": "I will most likely be playing/watching Football, or trying to learn a new technology. I also love to travel and to explore new cultures.",
     "objective": "My objectives are to take a challenging role in the field of",
     "objective2": "and implement the expertise and experience gained in this field to develop complex project with efficiency and quality."
   },
@@ -22,32 +22,33 @@
     "home": "Home",
     "about": "About",
     "projects": "Projects",
+    "my_projects": "My Work",
     "my_work": "My Work",
     "blog": "Blog",
     "admin": "Admin",
     "logout": "Logout",
-    "new-blog": "New Blog",
+    "new_blog": "New Blog",
     "skills": "Skills",
-    "personal-projects": "Personal Projects",
-    "contact-me": "Get in touch",
-    "made-by": "Handmade with",
+    "personal_projects": "Personal Projects",
+    "contact_me": "Get in touch",
+    "made_by": "Handmade with",
     "send": "Send",
-    "leave-comment": "Leave a comment",
+    "leave_comment": "Leave a comment",
     "from": "from",
     "and": "and",
     "DONE": "Done",
     "AVAILABLE": "Available",
-    "IN-PROGRESS": "Ongoing",
+    "IN_PROGRESS": "Ongoing",
     "soon": "Coming soon!",
     "more": "More",
     "demo": "Demo",
     "by": "By"
   },
   "placeholders": {
-    "your-name": "Name",
-    "your-comment": "Comment",
-    "your-email": "Email",
-    "your-inquiry": "Inquiry"
+    "your_name": "Name",
+    "your_comment": "Comment",
+    "your_email": "Email",
+    "your_inquiry": "Inquiry"
   },
   "locations": {
     "riyadh": "Riyadh, Saudi Arabia",
@@ -75,7 +76,7 @@
         "2": "I have the ability to work independently and within groups."
       },
       "planning": {
-        "1": "I love to work with clients to transform ideas to well-thought-out products. I believe it’s important to stay ",
+        "1": "I love to work with clients to transform ideas to well_thought_out products. I believe it’s important to stay ",
         "2": "organized",
         "3": " and to respect ",
         "4": "timelines"
@@ -107,6 +108,7 @@
     "CSS": "CSS",
     "MOBILE DEVELOPMENT": "Mobile Development",
     "WEB DEVELOPMENT": "Web Development",
-    "ARTIFICIAL INTELLIGENCE": "Artificial intelligence"
+    "ARTIFICIAL INTELLIGENCE": "Artificial intelligence",
+    "API": "API"
   }
 }

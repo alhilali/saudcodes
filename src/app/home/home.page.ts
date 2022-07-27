@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ThemeService } from '../services/theme/theme.service';
 
 @Component({
   selector: 'app-home',
@@ -6,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  constructor() {}
+  constructor(private themeService: ThemeService) {}
+
+  changeLanguage() {
+    this.themeService.setLanguage();
+  }
+
+  changeTheme() {
+    this.themeService.toggleTheme();
+  }
 }
