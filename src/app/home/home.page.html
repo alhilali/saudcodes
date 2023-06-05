@@ -14,14 +14,14 @@
 
 <ion-content [fullscreen]="true">
   <ion-row class="hero-container ion-padding">
-    <ion-col class="image-container" size="12" size-md="6">
+    <ion-col class="image-container" size="12" size-md="5" size-lg="4" size-xl="3">
       <img
         class="image"
         src="./assets/img/saud.png"
         alt="Saud Alhelali's Image"
       />
     </ion-col>
-    <ion-col class="about-me-container" size="12" size-md="6">
+    <ion-col class="about-me-container" size="12" size-md="7" size-lg="8" size-xl="9">
       <div class="intro">
         <p class="paragraph">
           {{ 'personal.welcome' | translate }}
@@ -34,10 +34,10 @@
       </div>
     </ion-col>
   </ion-row>
-  <ion-row>
-    <ion-col size="12" size-md="4">
+  <ion-row class="actions-row">
+    <ion-col size="12">
       <ion-button class="ion-padding" expand="block" routerLink="my-work">
-        <ion-icon slot="end" name="arrow-forward-outline"></ion-icon> {{
+        {{
         'common.my_projects' | translate }}
       </ion-button>
       <ion-button
@@ -52,7 +52,7 @@
   </ion-row>
 
   <ion-row>
-    <ion-col size="12" size-md="4">
+    <ion-col size="12">
       <div class="soc-box">
         <div class="soc">
           <a target="_blank" href="https://www.linkedin.com/in/alhelali/">

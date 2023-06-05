@@ -3,14 +3,11 @@
     "pathName": "COVID19",
     "name": "COVID 19 - كوڤيد ١٩",
     "year": "2020",
-    "relevantAreas": [
-      "WEB DEVELOPMENT",
-      "IONIC"
-    ],
+    "relevantAreas": ["WEB DEVELOPMENT", "IONIC"],
     "description": "A simple webapp that displayes statistics of COVID-19",
     "image": "assets/img/projects/covid19/logo.jpeg",
     "status": "AVAILABLE",
-    "fullDescription": "I found a great open source project (link to Github project is noted below) that provides APIs to get the latests numbser of COVID 19 epidemic. It was a very enlighting small project, I got to use some graph libraries with an interactive map of the world.",
+    "fullDescription": "I found a great open source project that aggregates latests numbers of COVID 19 epidemic. It was a very enlighting small project, I got to use some graph libraries with an interactive map of the world.",
     "link": "https://covid19.saud.tech",
     "linkTitle": "Website",
     "screenshots": [
