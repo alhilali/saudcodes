@@ -11,12 +11,6 @@
   }
   .image:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    margin-top: -5px;
-  }
-  @media (max-width: 1199px) {
-    .image {
-      width: 40%;
-    }
   }
 }
 
@@ -40,10 +34,16 @@
   letter-spacing: 0px;
 }
 
+.actions-row {
+  ion-button {
+    width: 40vh;
+  }
+}
 .soc-box {
   text-align: center;
   height: 30px;
   margin-top: 20px;
+  width: 40vh;
   .soc a {
     margin: 10px;
     color: #bbb;

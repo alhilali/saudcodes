@@ -9,7 +9,7 @@ import { Theme, ThemeOptions } from './theme-options.model';
 })
 export class ThemeService {
   private defaultOptions: ThemeOptions = {
-    theme: Theme.LIGHT, // two possible values: light, dark
+    theme: Theme.DARK, // two possible values: light, dark
     languageCode: 'ar', // ar, en
   };
 
