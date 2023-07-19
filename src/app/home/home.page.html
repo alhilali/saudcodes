@@ -14,14 +14,14 @@
 
 <ion-content [fullscreen]="true">
   <ion-row class="hero-container ion-padding">
-    <ion-col class="image-container" size="12" size-md="6">
+    <ion-col class="image-container" size="12" size-md="4">
       <img
         class="image"
         src="./assets/img/saud.png"
         alt="Saud Alhelali's Image"
       />
     </ion-col>
-    <ion-col class="about-me-container" size="12" size-md="6">
+    <ion-col class="about-me-container" size="12" size-md="8">
       <div class="intro">
         <p class="paragraph">
           {{ 'personal.welcome' | translate }}
@@ -30,18 +30,13 @@
           <span class="strong">{{ 'personal.title' | translate }}</span>{{
           'personal.hook' | translate }}
         </p>
-        <p class="paragraph">{{ 'personal.explore' | translate }}</p>
       </div>
     </ion-col>
   </ion-row>
   <ion-row>
     <ion-col size="12" size-md="4">
-      <ion-button class="ion-padding" expand="block" routerLink="my-work">
-        <ion-icon slot="end" name="arrow-forward-outline"></ion-icon> {{
-        'common.my_projects' | translate }}
-      </ion-button>
       <ion-button
-        class="ion-padding"
+        class="ion-padding contact-button"
         href="mailto:saudalhilali@gmail.com?subject=Hello Saud!"
         expand="block"
         fill="outline"
